@@ -1,0 +1,7 @@
+docker build -t backendapp .
+
+docker tag backendapp tomlilja/fullstackbackend
+
+docker login
+
+docker push tomlilja/fullstackbackend

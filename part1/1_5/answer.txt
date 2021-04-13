@@ -1,0 +1,7 @@
+REPOSITORY                          TAG                 IMAGE ID            CREATED             SIZE
+devopsdockeruh/simple-web-service   ubuntu              4e3362e907d5        3 weeks ago         83MB
+devopsdockeruh/simple-web-service   alpine              fd312adc88e0        3 weeks ago         15.7MB
+
+image with ubuntu tag is 67,3 MB larger.
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'

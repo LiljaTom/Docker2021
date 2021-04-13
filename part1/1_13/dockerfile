@@ -1,0 +1,11 @@
+FROM golang:1.16
+
+WORKDIR /myownapp
+
+EXPOSE 8080
+
+COPY ./example-backend .
+
+RUN go build
+
+CMD ./server
